@@ -3,45 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagination Example</title>
+    <title>Classes List with Pagination</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-  <h1>Classes List with Pagination</h1>
+        <h1>Classes List with Pagination</h1>
         
         <!-- Items Container -->
         <div class="items-container" id="itemsContainer">
-            <div class="item">
-                <h3>Class 1</h3>
-<p>Computer Class</p>
-            </div>
-            <div class="item">
-                <h3>Class 2</h3>
-                <p>English Class</p>
-            </div>
-            <div class="item">
-                <h3>Class 3</h3>
-                <p>Math Class</p>
-            </div>
-            <div class="item">
-                <h3>Class 4</h3>
-                <p>Urdu Class</p>
-            </div>
-            <div class="item">
-                <h3>Class 5</h3>
-                <p>Chemistry Class</p>
-            </div>
-            <div class="item">
-                <h3>Class 6</h3>
-                <p>Physics Class</p>
-            </div>
-           
+            <!-- Items JavaScript se load hongi -->
         </div>
 
         <!-- Pagination Controls -->
         <div class="pagination" id="pagination">
-            <button id="prevBtn" class="page-btn">← Previous</button>
+            <button id="prevBtn" class="page-btn" disabled>← Previous</button>
             <div id="pageNumbers" class="page-numbers"></div>
             <button id="nextBtn" class="page-btn">Next →</button>
         </div>
@@ -52,3 +28,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+             
